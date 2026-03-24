@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-codex-cli",
+  "description": "Makes OpenAI Codex CLI a full-capability AI colleague for Claude Code — second-opinion reasoning, not just on-demand delegation.",
+  "owner": {
+    "name": "qichiyuhub",
+    "url": "https://github.com/qichiyuhub"
+  },
+  "plugins": [
+    {
+      "name": "skill-codex-cli",
+      "source": "./plugins/skill-codex-cli",
+      "description": "Full-capability AI colleague — second-opinion reasoning, code review, sandboxed execution, web search, cross-validation",
+      "version": "1.0.0",
+      "category": "development",
+      "homepage": "https://github.com/qichiyuhub/skill-codex-cli",
+      "tags": [
+        "skill",
+        "codex",
+        "openai",
+        "code-review",
+        "cross-validation"
+      ]
+    }
+  ]
+}
